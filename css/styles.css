@@ -2,7 +2,8 @@
 body {
   margin: 0 auto;
   background-color: white;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100; }
 
 a {
   text-decoration: none; }
@@ -28,7 +29,10 @@ h1, h2, h3, h4 {
     padding: 5%; }
   #skills-section .row {
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    text-align: center; }
+    #skills-section .row span {
+      font-size: 1.5rem; }
   #skills-section .col {
     padding: 1rem; }
 
@@ -98,3 +102,6 @@ h1, h2, h3, h4 {
     text-align: center;
     font-size: 1.5rem;
     font-weight: 100; }
+
+.my-col {
+  padding-top: 1rem; }

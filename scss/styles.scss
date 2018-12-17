@@ -4,7 +4,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,400');
 
 //Main Sections
-
 #top-section {
   background: url(../img/computer.jpg);
   background-repeat: no-repeat;
@@ -24,6 +23,10 @@
   .row {
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+    span {
+      font-size: 1.5rem;
+    }
   }
   .col {
     padding: 1rem;
@@ -102,4 +105,8 @@
     font-weight: 100;
   }
 
+}
+
+.my-col {
+  padding-top: 1rem;
 }
