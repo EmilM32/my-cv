@@ -1,0 +1,6 @@
+@mixin logo($padding, $size, $align) {
+  display: block;
+  padding-top: $padding;
+  font-size: $size;
+  text-align: $align;
+}

@@ -1,0 +1,84 @@
+@import 'variables';
+@import 'reset';
+@import 'mixins';
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400');
+
+//Main Sections
+
+#top-section {
+  background: url(../img/computer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 100vh;
+}
+
+.text-logo {
+  position: absolute;
+  right: 0;
+  bottom: 300px;
+  background-color: $bg-dark;
+  color: $light;
+  width: 400px;
+  font-weight: 100;
+  .wd {
+    @include logo(1rem, 1.5rem, center);
+    display: block;
+  }
+  .cp {
+    @include logo(1rem, 1.5rem, center);
+    padding-bottom: 10px;
+  }
+}
+
+.my-buttons {
+  width: 400px;
+  position: absolute;
+  bottom: 250px;
+  right: 1rem;
+  text-align: center;
+}
+
+#contactme {
+  color: black;
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
+  width: 40px;
+}
+
+.down-arrow {
+  bottom: 5px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, 0);
+  width: 100px;
+  opacity: .7;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.top-name {
+  background-color: black;
+  width: 300px;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  opacity: .7;
+  .name {
+    color: white;
+    display: block;
+    text-align: center;
+    font-weight: 100;
+    font-size: 2.5rem;
+  }
+  .cv {
+    color: $gold;
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
+
+}
