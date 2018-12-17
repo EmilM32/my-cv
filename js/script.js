@@ -10,7 +10,7 @@ $('[data-toggle="tooltip"]').tooltip();
 
   $("#contactme").click(function() {
       $('html, body').animate({
-          scrollTop: $("#contact-section").offset().top
+          scrollTop: $("#section-contact").offset().top
       }, 1500);
   });
 

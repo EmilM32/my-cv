@@ -14,3 +14,11 @@ a {
 h1, h2, h3, h4 {
   font-weight: 100;
 }
+
+hr {
+  border-top: .5rem dotted grey;
+  border-bottom: 0;
+  width: 5%;
+  margin: 2rem auto;
+  opacity: .5;
+}

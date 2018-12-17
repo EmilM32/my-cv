@@ -13,6 +13,13 @@ a {
 h1, h2, h3, h4 {
   font-weight: 100; }
 
+hr {
+  border-top: .5rem dotted grey;
+  border-bottom: 0;
+  width: 5%;
+  margin: 2rem auto;
+  opacity: .5; }
+
 #top-section {
   background: url(../img/computer.jpg);
   background-repeat: no-repeat;
@@ -23,10 +30,11 @@ h1, h2, h3, h4 {
 #skills-section {
   background-color: #F5D933;
   width: auto;
-  height: 100vh;
-  color: black; }
+  height: auto;
+  color: black;
+  padding-bottom: 5%; }
   #skills-section h1 {
-    padding: 5%; }
+    padding: 5% 0 3% 5%; }
   #skills-section .row {
     margin-left: auto;
     margin-right: auto;
@@ -35,6 +43,11 @@ h1, h2, h3, h4 {
       font-size: 1.5rem; }
   #skills-section .col {
     padding: 1rem; }
+
+#section-contact h1 {
+  padding: 5%; }
+  #section-contact h1 span {
+    color: #F5D933; }
 
 #contactme {
   color: black;

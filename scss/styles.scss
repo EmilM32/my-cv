@@ -15,10 +15,11 @@
 #skills-section {
   background-color: $gold;
   width: auto;
-  height: 100vh;
+  height: auto;
   color: black;
+  padding-bottom: 5%;;
   h1 {
-    padding: 5%;
+    padding: 5% 0 3% 5%;
   }
   .row {
     margin-left: auto;
@@ -30,6 +31,15 @@
   }
   .col {
     padding: 1rem;
+  }
+}
+
+#section-contact {
+  h1 {
+    padding: 5%;
+    span {
+      color: $gold;
+    }
   }
 }
 
