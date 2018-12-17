@@ -9,12 +9,35 @@ a {
   a:hover {
     text-decoration: none; }
 
+h1, h2, h3, h4 {
+  font-weight: 100; }
+
 #top-section {
   background: url(../img/computer.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: auto;
   height: 100vh; }
+
+#skills-section {
+  background-color: #F5D933;
+  width: auto;
+  height: 100vh;
+  color: black; }
+  #skills-section h1 {
+    padding: 5%; }
+  #skills-section .row {
+    margin-left: auto;
+    margin-right: auto; }
+  #skills-section .col {
+    padding: 1rem; }
+
+#contactme {
+  color: black;
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
+  width: 40px; }
 
 .text-logo {
   position: absolute;
@@ -43,13 +66,6 @@ a {
   bottom: 250px;
   right: 1rem;
   text-align: center; }
-
-#contactme {
-  color: black;
-  position: fixed;
-  bottom: 10px;
-  right: 30px;
-  width: 40px; }
 
 .down-arrow {
   bottom: 5px;
